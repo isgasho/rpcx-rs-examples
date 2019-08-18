@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "mul_model",
+    "client_call_mul",
+    "client_call_mul_async",
+    "server_register",
+    "server_mul",
+    "protobuf/mul_model_proto",
+    "protobuf/server_mul",
+    "protobuf/client_call_mul",
+    "xclient_call_mul"
+]
+ 
+[profile.release]
+debug = true 
+
+[profile.bench]
+debug = true 
